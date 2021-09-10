@@ -1,0 +1,26 @@
+{
+  "server": "hub-cloud.browserstack.com",
+
+  "capabilities": {
+    "project": "TestNg Parallel Project",
+    "build": "Jenkins - Wiki App Parallel",
+    "name": "Parallel Test",
+    "browserstack.debug": true,
+  },
+
+  "environments": [
+    {
+      "device": "Google Pixel 3",
+      "os_version": "9.0"
+    },
+    {
+      "device": "Google Pixel 5",
+      "os_version": "11.0"
+    }
+    {
+      "device": "Samsung Galaxy S21",
+      "os_version": "11.0"
+    }
+
+  ]
+}

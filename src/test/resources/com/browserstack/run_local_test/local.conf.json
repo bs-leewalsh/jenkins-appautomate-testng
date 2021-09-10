@@ -1,0 +1,21 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "leewalsh_8oLxky",
+  "access_key": "d5CsPExn1Bt7oQhCc4sR",
+
+  "capabilities": {
+    "project": "First TestNg Android Project",
+    "build": "TestNg Android Local",
+    "name": "local_test",
+    "browserstack.debug": true,
+    "browserstack.local": true,
+    "app": "bs://4e1703369126879ee26c133f97e7c10a8c40f5e3"
+  },
+
+  "environments": [
+    { 
+      "device": "Google Pixel 3",
+      "os_version": "9.0"
+    }
+  ]
+}

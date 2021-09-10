@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Parallel]" guice-stage="DEVELOPMENT">
+  <parameter name="deviceIndex" value="2"/>
+  <test name="ParallelTestPixel3">
+    <parameter name="deviceIndex" value="0"/>
+    <classes>
+      <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+    </classes>
+  </test> <!-- ParallelTestPixel3 -->
+  <test name="ParallelTestPixel5">
+    <parameter name="deviceIndex" value="1"/>
+    <classes>
+      <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+    </classes>
+  </test> <!-- ParallelTestPixel5 -->
+  <test name="ParallelTestGalaxyS21">
+    <parameter name="deviceIndex" value="2"/>
+    <classes>
+      <class name="com.browserstack.run_parallel_test.ParallelTest"/>
+    </classes>
+  </test> <!-- ParallelTestGalaxyS21 -->
+</suite> <!-- Failed suite [Parallel] -->

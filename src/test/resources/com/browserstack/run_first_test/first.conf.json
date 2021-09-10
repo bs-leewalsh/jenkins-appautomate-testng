@@ -1,0 +1,17 @@
+{
+  "server": "hub-cloud.browserstack.com",
+
+  "capabilities": {
+    "project": "TestNg Single Project",
+    "build": "Jenkins - Wiki App",
+    "name": "Single Test",
+    "browserstack.debug": true,
+  },
+
+  "environments": [
+    { 
+      "device": "Google Pixel 3",
+      "os_version": "9.0"
+    }
+  ]
+}
